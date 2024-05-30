@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "uri": "https://github.com/gofrontier-com/sheriff-azure-devops-extension"
+    "uri": "https://github.com/frontierhq/sheriff-azure-devops-extension"
   },
   "content": {
     "details": {
@@ -30,7 +30,7 @@
   },
   "links": {
     "learn": {
-      "uri": "https://github.com/gofrontier-com/sheriff"
+      "uri": "https://github.com/frontierhq/sheriff"
     }
   },
   "icons": {
