@@ -1,17 +1,19 @@
 {
   "name": "sheriff-plan-task",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "scripts": {
     "test": "run-p test:*",
     "test:js": "eslint .",
     "test:unit": "mocha test/unit --recursive --reporter mocha-multi --reporter-options spec=-,mocha-junit-reporter=-"
   },
-  "author": "Frontier Digital Ltd",
+  "author": "Frontier",
   "license": "GPL-3.0",
   "dependencies": {
     "axios": "^1.4.0",
-    "azure-pipelines-task-lib": "^4.4.0"
+    "azure-devops-node-api": "^13.0.0",
+    "azure-pipelines-task-lib": "^4.4.0",
+    "azure-pipelines-tasks-artifacts-common": "^2.230.0"
   },
   "devDependencies": {
     "eslint": "^8.44.0",

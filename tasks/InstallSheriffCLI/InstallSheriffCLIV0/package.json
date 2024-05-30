@@ -7,7 +7,7 @@
     "test:js": "eslint .",
     "test:unit": "mocha test/unit --recursive --reporter mocha-multi --reporter-options spec=-,mocha-junit-reporter=-"
   },
-  "author": "Frontier Digital Ltd",
+  "author": "Frontier",
   "license": "GPL-3.0",
   "dependencies": {
     "axios": "^1.4.0",

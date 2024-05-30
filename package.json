@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:gofrontier-com/sheriff-azure-devops-extension.git"
+    "url": "git@github.com:frontierhq/sheriff-azure-devops-extension.git"
   },
-  "author": "Frontier Digital Ltd",
+  "author": "Frontier",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/gofrontier-com/sheriff-azure-devops-extension/issues"
+    "url": "https://github.com/frontierhq/sheriff-azure-devops-extension/issues"
   },
-  "homepage": "https://github.com/gofrontier-com/sheriff-azure-devops-extension#readme",
+  "homepage": "https://github.com/frontierhq/sheriff-azure-devops-extension#readme",
   "dependencies": {
     "fs-extra": "^11.1.1",
     "rimraf": "^5.0.1",

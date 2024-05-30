@@ -3,7 +3,7 @@
 ## About
 
 This is an Azure DevOps extension that provides tasks for installing and running
-[Sheriff](https://github.com/gofrontier-com/sheriff), a command line tool to
+[Sheriff](https://github.com/frontierhq/sheriff), a command line tool to
 manage Microsoft Entra Privileged Identity Management (Microsoft Entra PIM)
 using desired state configuration.
 
@@ -51,4 +51,4 @@ This task runs Sheriff in apply mode, equivalent to running ``sheriff apply [mod
 
 ## Contributing
 
-We welcome contributions to this repository. Please see [CONTRIBUTING.md](https://github.com/gofrontier-com/sheriff-azure-devops-extension/tree/main/CONTRIBUTING.md) for more information.
+We welcome contributions to this repository. Please see [CONTRIBUTING.md](https://github.com/frontierhq/sheriff-azure-devops-extension/tree/main/CONTRIBUTING.md) for more information.
