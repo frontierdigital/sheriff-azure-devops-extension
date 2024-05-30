@@ -5,9 +5,9 @@
   "friendlyName": "Sheriff apply",
   "instanceNameFormat": "Sheriff apply",
   "description": "Runs the apply action on Sheriff",
-  "helpUrl": "https://github.com/gofrontier-com/sheriff-azure-devops-extension/tasks/SheriffApply/SheriffApplyV0/README.md",
+  "helpUrl": "https://github.com/frontierhq/sheriff-azure-devops-extension/tasks/SheriffApply/SheriffApplyV0/README.md",
   "category": "Utility",
-  "author": "Frontier Digital Ltd",
+  "author": "Frontier",
   "inputs": [
     {
       "name": "configDir",
