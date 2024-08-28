@@ -27,7 +27,7 @@ desired state configuration.
 Installation
 ------------
 
-The extension is available in the `Visual Studio Marketplace <https://marketplace.visualstudio.com/items?itemName=gofrontier.Sheriff>`_.
+The extension is available in the `Visual Studio Marketplace <https://marketplace.visualstudio.com/items?itemName=frontier.Sheriff>`_.
 
 -----
 Usage
