@@ -9,8 +9,6 @@ const { promisify } = require('util');
 
 const finished = promisify(stream.finished);
 
-const sas = 'sp=r&st=2024-01-01T00:00:00Z&se=2049-12-31T23:59:59Z&spr=https&sv=2022-11-02&sr=c&sig=Obnq5FJma2NJlE1k0PykIYlHbBcTA1yeba3YRLV6rmw%3D';
-
 async function run() {
   try {
     const version = tl.getInput('version', true);
@@ -43,9 +41,9 @@ async function run() {
 
     let downloadUrl;
     if (version === 'latest') {
-      downloadUrl = `https://sa0she0prd0uks0releases.blob.core.windows.net/sheriff/latest/sheriff_${os}_${platform}.${fileExtension}?${sas}`;
+      downloadUrl = `https://releases.frontierhq.com/sheriff/latest/sheriff_${os}_${platform}.${fileExtension}`;
     } else {
-      downloadUrl = `https://sa0she0prd0uks0releases.blob.core.windows.net/sheriff/${version}/sheriff_${os}_${platform}.${fileExtension}?${sas}`;
+      downloadUrl = `https://releases.frontierhq.com/sheriff/${version}/sheriff_${os}_${platform}.${fileExtension}`;
     }
     const downloadPath = path.join(agentTempDirectory, `sheriff_${os}_${platform}.${fileExtension}`);
     const toolDirPath = `${agentToolsDirectory}/sheriff/${version}/${platform}`;

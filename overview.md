@@ -3,9 +3,8 @@
 ## About
 
 This is an Azure DevOps extension that provides tasks for installing and running
-[Sheriff](https://github.com/frontierhq/sheriff), a command line tool to
-manage Microsoft Entra Privileged Identity Management (Microsoft Entra PIM)
-using desired state configuration.
+[Sheriff](https://frontierhq.com/products/sheriff), a command line tool to configure
+and operate Microsoft Entra Privileged Identity Management (PIM) in automation.
 
 ## Usage
 
