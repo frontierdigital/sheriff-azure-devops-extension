@@ -1,5 +1,9 @@
 # Sheriff Azure DevOps Extension Changelog
 
+## 0.0.7
+
+* `InstallSheriffCLI` task updated to download Sheriff from releases.frontierhq.com.
+
 ## 0.0.6
 
 * `SheriffPlan` and `SheriffApply` tasks updated to support workload identity federation authentication.
