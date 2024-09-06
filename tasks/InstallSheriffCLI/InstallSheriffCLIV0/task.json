@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-  "id": "27cd9465-8346-4fe3-8bcf-e7385c8d5b50",
+  "id": "3b21ab9f-3ae3-4a48-b8eb-7e131b6821ac",
   "name": "InstallSheriffCLI",
   "friendlyName": "Install Sheriff CLI",
   "instanceNameFormat": "Install Sheriff CLI",

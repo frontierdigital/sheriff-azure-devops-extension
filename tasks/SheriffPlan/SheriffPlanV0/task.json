@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-  "id": "fff0ef38-c5da-423b-91cb-eec8994eb5bb",
+  "id": "8f5c8990-00e2-43ca-85e1-f9fd9b584ad6",
   "name": "SheriffPlan",
   "friendlyName": "Sheriff plan",
   "instanceNameFormat": "Sheriff plan",
