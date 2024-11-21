@@ -10,13 +10,6 @@
   "author": "Frontier",
   "inputs": [
     {
-      "name": "licenseFilePath",
-      "type": "string",
-      "label": "License file path",
-      "required": false,
-      "helpMarkDown": "The Sheriff license file path"
-    },
-    {
       "name": "version",
       "type": "string",
       "label": "Version",

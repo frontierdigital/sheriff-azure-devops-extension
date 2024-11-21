@@ -11,7 +11,6 @@ const finished = promisify(stream.finished);
 
 async function run() {
   try {
-    const licenseFilePath = tl.getInput('licenseFilePath', false);
     const version = tl.getInput('version', true);
 
     const agentOS = tl.getVariable('Agent.OS');
@@ -76,24 +75,6 @@ async function run() {
 
     tl.mkdirP(toolDirPath);
     await tl.execAsync('tar', ['-xf', downloadPath, '-C', toolDirPath]);
-
-    // const accessToken = tl.getInput('System.AccessToken', true);
-    // const collectionUri = tl.getVariable('System.CollectionUri');
-
-    if (licenseFilePath) {
-      // const authHandler = azdevops.getPersonalAccessTokenHandler(accessToken);
-      // const connection = new azdevops.WebApi(collectionUri, authHandler);
-
-      // const taskAgentApi = await connection.getTaskAgentApi();
-
-      // await taskAgentApi.getSecureFilesByNames()
-      // const secureFileHelpers = new secureFilesCommon.SecureFileHelpers();
-      // const licenseFilePath = await secureFileHelpers.downloadSecureFile(licenseSecureFile);
-
-      tl.debug(`Licence file path: ${licenseFilePath}`);
-
-      await tl.execAsync('cp -f', [licenseFilePath, toolDirPath]);
-    }
 
     // eslint-disable-next-line no-console
     console.log(`##vso[task.prependpath]${toolDirPath}`);
