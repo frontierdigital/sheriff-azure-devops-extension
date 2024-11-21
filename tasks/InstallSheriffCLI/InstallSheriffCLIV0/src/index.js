@@ -1,10 +1,8 @@
 #!/usr/bin/env node
 
 const axios = require('axios');
-// const azdevops = require('azure-devops-node-api');
 const fs = require('fs');
 const path = require('path');
-const secureFilesCommon = require('azure-pipelines-tasks-securefiles-common/securefiles-common');
 const stream = require('stream');
 const tl = require('azure-pipelines-task-lib/task');
 const { promisify } = require('util');
@@ -13,7 +11,7 @@ const finished = promisify(stream.finished);
 
 async function run() {
   try {
-    const licenseSecureFile = tl.getInput('licenseSecureFile', false);
+    const licenseFilePath = tl.getInput('licenseFilePath', false);
     const version = tl.getInput('version', true);
 
     const agentOS = tl.getVariable('Agent.OS');
@@ -82,15 +80,15 @@ async function run() {
     // const accessToken = tl.getInput('System.AccessToken', true);
     // const collectionUri = tl.getVariable('System.CollectionUri');
 
-    if (licenseSecureFile) {
+    if (licenseFilePath) {
       // const authHandler = azdevops.getPersonalAccessTokenHandler(accessToken);
       // const connection = new azdevops.WebApi(collectionUri, authHandler);
 
       // const taskAgentApi = await connection.getTaskAgentApi();
 
       // await taskAgentApi.getSecureFilesByNames()
-      const secureFileHelpers = new secureFilesCommon.SecureFileHelpers();
-      const licenseFilePath = await secureFileHelpers.downloadSecureFile(licenseSecureFile);
+      // const secureFileHelpers = new secureFilesCommon.SecureFileHelpers();
+      // const licenseFilePath = await secureFileHelpers.downloadSecureFile(licenseSecureFile);
 
       tl.debug(`Licence file path: ${licenseFilePath}`);
 
