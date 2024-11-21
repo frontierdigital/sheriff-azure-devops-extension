@@ -1,6 +1,6 @@
 {
   "name": "install-sheriff-cli-task",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "",
   "scripts": {
     "test": "run-p test:*",
@@ -11,7 +11,8 @@
   "license": "GPL-3.0",
   "dependencies": {
     "axios": "^1.4.0",
-    "azure-pipelines-task-lib": "^4.4.0"
+    "azure-pipelines-task-lib": "^4.4.0",
+    "azure-pipelines-tasks-securefiles-common": "^2.245.0"
   },
   "devDependencies": {
     "eslint": "^8.44.0",

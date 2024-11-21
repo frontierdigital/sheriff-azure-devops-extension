@@ -10,6 +10,13 @@
   "author": "Frontier",
   "inputs": [
     {
+      "name": "licenseSecureFile",
+      "type": "string",
+      "label": "License secure file",
+      "required": false,
+      "helpMarkDown": "The name or Id of the secure file containing the Sheriff license"
+    },
+    {
       "name": "version",
       "type": "string",
       "label": "Version",
