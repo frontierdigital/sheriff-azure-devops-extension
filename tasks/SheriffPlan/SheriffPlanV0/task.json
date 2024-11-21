@@ -17,11 +17,11 @@
       "helpMarkDown": "The config directory path"
     },
     {
-      "name": "licenseFilePath",
+      "name": "licenceFilePath",
       "type": "string",
-      "label": "License file path",
+      "label": "Licence file path",
       "required": false,
-      "helpMarkDown": "The license file path"
+      "helpMarkDown": "The licence file path"
     },
     {
       "name": "mode",
