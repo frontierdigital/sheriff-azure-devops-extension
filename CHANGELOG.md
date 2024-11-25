@@ -1,5 +1,9 @@
 # Sheriff Azure DevOps Extension Changelog
 
+## 0.0.8
+
+* `SheriffPlan` and `SheriffApply` tasks updated to add licence support.
+
 ## 0.0.7
 
 * `InstallSheriffCLI` task updated to download Sheriff from releases.frontierhq.com.
