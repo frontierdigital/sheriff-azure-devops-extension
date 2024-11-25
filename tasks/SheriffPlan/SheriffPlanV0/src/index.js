@@ -30,6 +30,7 @@ async function run() {
   try {
     const configDir = tl.getInput('configDir', false);
     const connectedService = tl.getInput('serviceConnectionName', true);
+    const licenceFilePath = tl.getInput('licenceFilePath', false);
     const mode = tl.getInput('mode', true);
 
     let subscriptionId = tl.getInput('subscriptionId', false);
@@ -91,6 +92,8 @@ async function run() {
         mode,
         configDir ? '--config-dir' : '',
         configDir,
+        licenceFilePath ? '--licence-file' : '',
+        licenceFilePath,
         '--subscription-id',
         subscriptionId,
       ],
