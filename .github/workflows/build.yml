@@ -37,7 +37,7 @@ jobs:
       - run: npm test
       - id: build
         run: npm run build "${{ inputs.version }}" "$GITHUB_OUTPUT"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v3
         with:
           name: dist
           path: "${{ github.workspace }}/dist/"
