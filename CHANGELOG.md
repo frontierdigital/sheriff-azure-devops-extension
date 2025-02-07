@@ -2,7 +2,7 @@
 
 ## 0.0.9
 
-* Updated package dependencies and deprecated Actions tasks.  Test.
+* Updated package dependencies and deprecated Actions tasks.
 
 ## 0.0.8
 
