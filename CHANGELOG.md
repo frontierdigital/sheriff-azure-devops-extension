@@ -1,5 +1,9 @@
 # Sheriff Azure DevOps Extension Changelog
 
+## 0.0.10
+
+* Added `autoApprove` input for `SheriffApply` task.
+
 ## 0.0.9
 
 * Updated package dependencies and deprecated Actions tasks.
