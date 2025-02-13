@@ -2,7 +2,7 @@
 
 ## 0.0.10
 
-* Added `autoApprove` input for `SheriffApply` task.
+* Added `autoApprove` input for `SheriffApply` task, defaults to `true`.
 
 ## 0.0.9
 

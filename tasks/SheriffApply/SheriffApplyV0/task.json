@@ -43,7 +43,7 @@
       "type": "boolean",
       "label": "Auto-approve",
       "required": false,
-      "defaultValue": false,
+      "defaultValue": true,
       "helpMarkDown": "Auto-approve the apply"
     },
     {
