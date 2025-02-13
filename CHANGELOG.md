@@ -1,5 +1,9 @@
 # Sheriff Azure DevOps Extension Changelog
 
+## 0.0.9
+
+* Updated package dependencies and deprecated Actions tasks.
+
 ## 0.0.8
 
 * `SheriffPlan` and `SheriffApply` tasks updated to add licence support.
