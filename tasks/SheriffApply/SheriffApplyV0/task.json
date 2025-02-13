@@ -39,6 +39,14 @@
       "helpMarkDown": "Run in plan-only action"
     },
     {
+      "name": "autoApprove",
+      "type": "boolean",
+      "label": "Auto-approve",
+      "required": false,
+      "defaultValue": true,
+      "helpMarkDown": "Auto-approve the apply"
+    },
+    {
       "name": "serviceConnectionName",
       "type": "connectedService:AzureRM",
       "label": "Service connection name",
