@@ -33,6 +33,7 @@ async function run() {
     const licenceFilePath = tl.getInput('licenceFilePath', false);
     const mode = tl.getInput('mode', true);
     const planOnly = (tl.getInput('planOnly', false) === 'true');
+    const autoApprove = (tl.getInput('autoApprove', false) === 'true');
 
     let subscriptionId = tl.getInput('subscriptionId', false);
 
@@ -98,6 +99,7 @@ async function run() {
         '--subscription-id',
         subscriptionId,
         planOnly ? '--plan-only' : '',
+        autoApprove ? '--auto-approve' : '',
       ],
       {
         env: {
